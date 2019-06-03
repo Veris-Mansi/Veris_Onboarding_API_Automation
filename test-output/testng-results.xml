@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29931" started-at="2019-06-03T11:45:57Z" finished-at="2019-06-03T11:46:27Z">
+    <groups>
+      <group name="logoutProfile">
+        <method signature="CompleteTesting_Onboading.logout_user()[pri:16, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="logout_user" class="Onboarding_Copy.CompleteTesting_Onboading"/>
+        <method signature="CompleteTesting_Onboading.already_logout_user()[pri:17, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="already_logout_user" class="Onboarding_Copy.CompleteTesting_Onboading"/>
+      </group> <!-- logoutProfile -->
+      <group name="UpdateProfile">
+        <method signature="CompleteTesting_Onboading.getUpdatedDataInvalidToken()[pri:15, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="getUpdatedDataInvalidToken" class="Onboarding_Copy.CompleteTesting_Onboading"/>
+        <method signature="CompleteTesting_Onboading.updateProfilData()[pri:14, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="updateProfilData" class="Onboarding_Copy.CompleteTesting_Onboading"/>
+      </group> <!-- UpdateProfile -->
+      <group name="ResendOTP">
+        <method signature="CompleteTesting_Onboading.ResendInvalidCountryCode()[pri:6, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="ResendInvalidCountryCode" class="Onboarding_Copy.CompleteTesting_Onboading"/>
+        <method signature="CompleteTesting_Onboading.ResendInvalidMobileNoNine()[pri:7, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="ResendInvalidMobileNoNine" class="Onboarding_Copy.CompleteTesting_Onboading"/>
+        <method signature="CompleteTesting_Onboading.ResendInvalidMobileNoEleven()[pri:8, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="ResendInvalidMobileNoEleven" class="Onboarding_Copy.CompleteTesting_Onboading"/>
+        <method signature="CompleteTesting_Onboading.ResendemptyCredentials()[pri:9, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="ResendemptyCredentials" class="Onboarding_Copy.CompleteTesting_Onboading"/>
+        <method signature="CompleteTesting_Onboading.ResendOTPTest()[pri:10, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="ResendOTPTest" class="Onboarding_Copy.CompleteTesting_Onboading"/>
+      </group> <!-- ResendOTP -->
+      <group name="getProfile">
+        <method signature="CompleteTesting_Onboading.getDataInvalidToken()[pri:12, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="getDataInvalidToken" class="Onboarding_Copy.CompleteTesting_Onboading"/>
+        <method signature="CompleteTesting_Onboading.getProfilData()[pri:11, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="getProfilData" class="Onboarding_Copy.CompleteTesting_Onboading"/>
+        <method signature="CompleteTesting_Onboading.UserProfileUnavailable()[pri:13, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="UserProfileUnavailable" class="Onboarding_Copy.CompleteTesting_Onboading"/>
+      </group> <!-- getProfile -->
+      <group name="OTP">
+        <method signature="CompleteTesting_Onboading.InvalidCountryCode()[pri:1, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="InvalidCountryCode" class="Onboarding_Copy.CompleteTesting_Onboading"/>
+        <method signature="CompleteTesting_Onboading.InvalidMobileNoNine()[pri:2, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="InvalidMobileNoNine" class="Onboarding_Copy.CompleteTesting_Onboading"/>
+        <method signature="CompleteTesting_Onboading.InvalidMobileNoEleven()[pri:3, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="InvalidMobileNoEleven" class="Onboarding_Copy.CompleteTesting_Onboading"/>
+        <method signature="CompleteTesting_Onboading.emptyCredentials()[pri:4, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="emptyCredentials" class="Onboarding_Copy.CompleteTesting_Onboading"/>
+        <method signature="CompleteTesting_Onboading.RequestOTPTest()[pri:5, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="RequestOTPTest" class="Onboarding_Copy.CompleteTesting_Onboading"/>
+      </group> <!-- OTP -->
+    </groups>
+    <test name="Default test" duration-ms="29931" started-at="2019-06-03T11:45:57Z" finished-at="2019-06-03T11:46:27Z">
+      <class name="Onboarding_Copy.CompleteTesting_Onboading">
+        <test-method status="PASS" signature="InvalidCountryCode()[pri:1, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="InvalidCountryCode" duration-ms="1985" started-at="2019-06-03T17:15:57Z" description="Invalid country code" finished-at="2019-06-03T17:15:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidCountryCode -->
+        <test-method status="PASS" signature="InvalidMobileNoNine()[pri:2, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="InvalidMobileNoNine" duration-ms="1690" started-at="2019-06-03T17:15:59Z" description="Nine digit mobile no" depends-on-methods="Onboarding_Copy.CompleteTesting_Onboading.InvalidCountryCode" finished-at="2019-06-03T17:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidMobileNoNine -->
+        <test-method status="PASS" signature="InvalidMobileNoEleven()[pri:3, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="InvalidMobileNoEleven" duration-ms="1761" started-at="2019-06-03T17:16:01Z" description="Eleven digit mobile no" depends-on-methods="Onboarding_Copy.CompleteTesting_Onboading.InvalidMobileNoNine" finished-at="2019-06-03T17:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidMobileNoEleven -->
+        <test-method status="PASS" signature="emptyCredentials()[pri:4, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="emptyCredentials" duration-ms="1620" started-at="2019-06-03T17:16:02Z" description="Empty Credentials" depends-on-methods="Onboarding_Copy.CompleteTesting_Onboading.InvalidMobileNoEleven" finished-at="2019-06-03T17:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCredentials -->
+        <test-method status="PASS" signature="RequestOTPTest()[pri:5, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="RequestOTPTest" duration-ms="1964" started-at="2019-06-03T17:16:04Z" description="Requesting OTP for correct credentials" depends-on-methods="Onboarding_Copy.CompleteTesting_Onboading.emptyCredentials" finished-at="2019-06-03T17:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestOTPTest -->
+        <test-method status="PASS" signature="ResendInvalidCountryCode()[pri:6, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="ResendInvalidCountryCode" duration-ms="1726" started-at="2019-06-03T17:16:06Z" description="Invalid country code for Resend" finished-at="2019-06-03T17:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResendInvalidCountryCode -->
+        <test-method status="PASS" signature="ResendInvalidMobileNoNine()[pri:7, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="ResendInvalidMobileNoNine" duration-ms="1890" started-at="2019-06-03T17:16:08Z" description="Nine digit mobile no" depends-on-methods="Onboarding_Copy.CompleteTesting_Onboading.ResendInvalidCountryCode" finished-at="2019-06-03T17:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResendInvalidMobileNoNine -->
+        <test-method status="PASS" signature="ResendInvalidMobileNoEleven()[pri:8, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="ResendInvalidMobileNoEleven" duration-ms="1606" started-at="2019-06-03T17:16:10Z" description="Eleven digit mobile no" depends-on-methods="Onboarding_Copy.CompleteTesting_Onboading.ResendInvalidMobileNoNine" finished-at="2019-06-03T17:16:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResendInvalidMobileNoEleven -->
+        <test-method status="PASS" signature="ResendemptyCredentials()[pri:9, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="ResendemptyCredentials" duration-ms="1803" started-at="2019-06-03T17:16:11Z" description="Empty Credentials" depends-on-methods="Onboarding_Copy.CompleteTesting_Onboading.ResendInvalidMobileNoEleven" finished-at="2019-06-03T17:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResendemptyCredentials -->
+        <test-method status="PASS" signature="ResendOTPTest()[pri:10, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="ResendOTPTest" duration-ms="1794" started-at="2019-06-03T17:16:13Z" description="Requesting OTP for correct credentials" depends-on-methods="Onboarding_Copy.CompleteTesting_Onboading.ResendemptyCredentials" finished-at="2019-06-03T17:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResendOTPTest -->
+        <test-method status="PASS" signature="getProfilData()[pri:11, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="getProfilData" duration-ms="1724" started-at="2019-06-03T17:16:15Z" finished-at="2019-06-03T17:16:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProfilData -->
+        <test-method status="PASS" signature="getDataInvalidToken()[pri:12, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="getDataInvalidToken" duration-ms="1719" started-at="2019-06-03T17:16:16Z" finished-at="2019-06-03T17:16:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDataInvalidToken -->
+        <test-method status="PASS" signature="UserProfileUnavailable()[pri:13, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="UserProfileUnavailable" duration-ms="1754" started-at="2019-06-03T17:16:18Z" finished-at="2019-06-03T17:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserProfileUnavailable -->
+        <test-method status="PASS" signature="updateProfilData()[pri:14, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="updateProfilData" duration-ms="1749" started-at="2019-06-03T17:16:20Z" finished-at="2019-06-03T17:16:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateProfilData -->
+        <test-method status="PASS" signature="getUpdatedDataInvalidToken()[pri:15, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="getUpdatedDataInvalidToken" duration-ms="1688" started-at="2019-06-03T17:16:22Z" finished-at="2019-06-03T17:16:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUpdatedDataInvalidToken -->
+        <test-method status="PASS" signature="logout_user()[pri:16, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="logout_user" duration-ms="1622" started-at="2019-06-03T17:16:23Z" finished-at="2019-06-03T17:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout_user -->
+        <test-method status="PASS" signature="already_logout_user()[pri:17, instance:Onboarding_Copy.CompleteTesting_Onboading@21362712]" name="already_logout_user" duration-ms="1723" started-at="2019-06-03T17:16:25Z" depends-on-methods="Onboarding_Copy.CompleteTesting_Onboading.logout_user" finished-at="2019-06-03T17:16:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- already_logout_user -->
+      </class> <!-- Onboarding_Copy.CompleteTesting_Onboading -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
